@@ -1,0 +1,30 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: top 2cm;;
+    border-radius: 30px;
+ font-size: 20px;
+ background-color: dodgerblue;
+padding:10px;
+}
+
+#slider figure{
+    display: none;
+}
+nav{
+    display:none
+}
+btn{
+    display:none
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin-left: 25px;
+    }
+    img#capa{
+        width: 800px;
+        height:400px;
+        margin-left:700px ;
+        margin-top: 50px;
+    }
+    

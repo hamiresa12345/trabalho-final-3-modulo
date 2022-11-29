@@ -1,0 +1,84 @@
+<!DOCTYPE >
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style/impressão.css" media="print">
+    <link rel="stylesheet" href="style/retrato.css"   media="screen and (max-width:768px)">
+    <style type="text/css">
+h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset{
+color: blue;
+}
+</style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1> cadastro bancario</h1>
+            <form>
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <p>
+                        <label for="inome">Nome</label>
+                        <input type="text" name="nome" id="inome">
+                    </p>
+                    <p> 
+                        <label for ="iendereço">Endereço</label>
+                        <input type="text"name ="Endereço" id="iendereço">
+                    </p>
+                    <p> 
+                        <label for="icidade">Cidade</label>
+                        <input type="text"name ="Cidade" id="icidade">
+                    </p>
+                    <p> 
+                        <label for="icpf">cpf</label>
+                        <input type="text"name ="cpf" id="icpf" placeholder="xxx-xxx-xxx-xx">
+                    </p>
+                    <p>
+                        <label for="iestado">Estado</label>
+                        <select name="estado" id="iestado">
+                            <option value="MG">Minas Gerais</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="BA">Bahia</option>
+                            <option value="ES">Espirito Santo</option>
+                            <option value="CE">Ceará</option>
+                            <option value="GO">Goiáis</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="PA">Pará</option>
+                            <option value="MA">Maranhão</option>
+                            </select>
+                            </p>
+                </fieldset>
+                <fieldset>
+                    <legend> dados bancários</legend>
+                    <p>
+                        <label for="iagência">agência</label>
+                        <input type="text" name="agência" id="iagência">
+                    </p>
+                    <p> 
+                        <label for ="inumero do cartão">número do cartão</label>
+                        <input type="text"name ="número do cartão" id="inúmero do cartão">
+                    </p>
+                    <p> 
+                        <label for="icpf do titular">cpf do titular</label>
+                        <input type="text"name ="cpf do titular" id="icpf do titular"placeholder="xxx-xxx-xxx-xx">
+                    </p>
+                </fieldset>
+       <fieldset>
+           <legend> comprovante domiciliar</legend>
+           <p>Anexe seu comprovante de residencia</p>
+           <input type="file" name="residencia" id="iresidencia">
+       </fieldset>
+<input type="submit" value="enviar">
+<input type ="reset"  value = " limpar">
+<a href="pag1.html">voltar a página inicial</a>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+    

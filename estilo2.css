@@ -1,0 +1,113 @@
+
+html{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: dodgerblue;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px; ;
+    }
+    nav > a{
+        margin-left: 130px;
+    }
+    img{
+        margin-left: 50px;
+        width: 230px;
+        height: 230px;  
+    }
+    body{
+        font-size: 12px;
+    }
+    img#canal{
+        width:50px;
+        height:50px;
+    }
+    img#capa{
+        width:1450px;
+        height:400px;
+        margin-left:7px ;
+        margin-top: 50px;
+    }
+    img#logo{
+        width: 50px;
+        height: 50px;
+        text-align: justify;
+        margin-left:px;
+        margin-bottom:10px ;
+    }
+    header>a{
+        border:solid 1px black ;
+        background-color: blue;
+        color: cornflowerblue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:20px;
+        margin-left:1200px;
+    }   
+     img#opcao{
+         margin-bottom:80px;
+        }
+     img#whats{
+         width:1300px ;
+         height:600px;
+         margin-left: 20px;
+         margin-bottom:60px ;
+     }
+    img#bala{
+        width:300px ;
+        height:300px;  
+        margin-bottom:60px ;
+    }
+    h1#pag4{
+    color: blue;
+    }
+    img#novo{
+        width:300px ;
+        height:300px;
+        margin-bottom:60px;
+    }
+     h1#pag3{
+         color: blue;
+     }   
+     nav#menupag4{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px; ;
+     }
+    h1{
+        color: navy;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:22pt ;
+    }
+    section#pag12{
+        text-align: center;
+    }
+    img#elo{
+        width:700px ;
+        height:700px;
+         text-align: left;
+         margin-left:-500px;
+    }
+    img#empre{
+        height:300px;
+        width:300px ;
+    }
+    header>img{
+        margin-left: -50px;
+    }
+    footer#pag12{
+        text-align: center;
+    }
+    p#paragrafopag12{
+        font-size:14pt;
+    }
+    body,html#pag11{
+        height: 100%;
+        margin: 0;
+    }
+    
